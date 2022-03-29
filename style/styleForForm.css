@@ -1,3 +1,27 @@
+#container2 {
+  background: linear-gradient(135deg, #000000, #110f44);
+}
+
 label {
-    color: white;
+  /* padding-bottom: 50px; */
+  font-size: 15px;
+}
+
+.personalInfo {  
+  width: 80%;
+}
+
+.personalInfo input {
+    height: 30px;
+    width: 90%;
+    border-radius: 5px;
+}
+
+form {
+  padding-left: 200px;
+}
+
+.doubleColumn {
+    all:unset;
+    width: 80%;
 }
