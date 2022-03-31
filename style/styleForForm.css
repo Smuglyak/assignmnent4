@@ -7,21 +7,30 @@ label {
   font-size: 15px;
 }
 
-.personalInfo {  
+.personalInfo {
   width: 80%;
 }
 
 .personalInfo input {
-    height: 30px;
-    width: 90%;
-    border-radius: 5px;
+  height: 30px;
+  width: 90%;
+  border-radius: 5px;
 }
 
 form {
   padding-left: 200px;
 }
 
+.userLogin {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .doubleColumn {
-    all:unset;
-    width: 80%;
+  all: unset;
+  width: 80%;
+}
+
+.doubleColumn .input-box {
+  width: calc(100% / 2-20px);
 }
